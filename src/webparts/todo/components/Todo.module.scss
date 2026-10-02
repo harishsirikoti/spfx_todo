@@ -1,0 +1,27 @@
+.todo {
+  padding: 16px;
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  li button {
+    margin-left: 12px;
+  }
+}
+
+.addTask {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+
+  input {
+    flex: 1;
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+}
